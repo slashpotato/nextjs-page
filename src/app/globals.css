@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+main.classic {
+    @apply mt-12
+}
+
+main.full {
+    @apply m-0
+}
+
+button, a {
+    @apply cursor-pointer
+}
+
+#navList ol {
+    @apply hover:underline no-underline cursor-pointer
+}
