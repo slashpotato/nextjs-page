@@ -47,3 +47,13 @@ button, a {
 #navList ol {
     @apply hover:underline no-underline cursor-pointer
 }
+
+#social-ol li {
+  @apply my-0.5 flex justify-start items-center
+}
+#social-ol li a {
+  @apply inline-flex justify-start items-center
+}
+#social-ol li a img {
+  @apply size-8 mr-2 saturate-0 brightness-[100000000000000000000000000000000000000000000000]
+}
