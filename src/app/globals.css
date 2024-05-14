@@ -33,7 +33,7 @@ body {
 }
 
 main.classic {
-    @apply mt-12
+    @apply mt-16
 }
 
 main.full {
@@ -55,5 +55,5 @@ button, a {
   @apply inline-flex justify-start items-center
 }
 #social-ol li a img {
-  @apply size-8 mr-2 saturate-0 brightness-[100000000000000000000000000000000000000000000000]
+  @apply size-8 mr-2 saturate-0
 }
