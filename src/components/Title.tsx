@@ -7,10 +7,14 @@ const hlebozavod = localFont({
     display: 'swap',
 })
 
+function showDropdown() {
+
+}
+
 export default function Title() {
     return (
-        <main className={`w-max h-full flex justify-start items-center ml-24 ${hlebozavod.className} font-semibold text-4xl`}>
-            <Link href={"/"}>slshptt</Link>
+        <main className={`w-max h-full flex justify-between gap-4 items-center ml-24 text-2xl font-black`} id="title">
+            <Link href={"/"} className={`${hlebozavod.className} mr-14 text-4xl font-semibold`}>slshptt</Link> <Link className="titleel" href={"/projects"}>projects<button className="material-symbols-rounded">arrow_drop_down</button></Link>
         </main>
     );
 }

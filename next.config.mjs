@@ -8,6 +8,18 @@ const nextConfig = {
                 port: '',
                 pathname: '/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'github.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'shields.io',
+                port: '',
+                pathname: '/**',
+            },
         ],
     },
 };
