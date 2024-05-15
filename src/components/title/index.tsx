@@ -1,9 +1,9 @@
 import Link from "next/link";
-import TitleElement from "@/components/TitleElement"
+import TitleElement from "@/components/title/element"
 import localFont from "next/font/local";
 
 const hlebozavod = localFont({
-    src: './../../public/fonts/hlebozavod/Hlebozavod-Medium.woff',
+    src: './../../../public/fonts/hlebozavod/Hlebozavod-Medium.woff',
     display: 'swap',
 })
 
