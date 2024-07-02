@@ -13,8 +13,10 @@ function showDropdown() {
 
 export default function Title() {
     return (
-        <main className={`w-max h-full flex justify-between gap-4 items-center ml-24 text-2xl font-black`} id="title">
-            <Link href={"/"} className={`${hlebozavod.className} mr-14 text-4xl font-semibold`}>slshptt</Link> <Link className="titleel" href={"/projects"}>projects<button className="material-symbols-rounded">arrow_drop_down</button></Link>
+        <main id="title">
+            <Link href={"/"} className={`${hlebozavod.className} text-4xl font-semibold`} id="header">slshptt</Link>
+            <Link className="titleel" href={"/projects"}>projects<button className="material-symbols-rounded">arrow_drop_down</button></Link>
+            <Link id="floating-settings-btn" href={"/settings"} className="material-symbols-rounded flex fixed right-6">settings</Link>
         </main>
     );
 }

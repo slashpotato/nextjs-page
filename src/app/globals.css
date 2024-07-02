@@ -91,6 +91,17 @@ button, a {
   @apply flex items-center justify-normal h-8 w-max gap-[2px]
 }
 
+#header {
+  margin-right: clamp(1rem, 5vw, 3.5rem);
+  margin-left: clamp(1.5rem, 5vw, 6rem);
+}
+
+#title {
+  font-size: clamp(1.3rem, 5vw, 1.5rem);
+  gap: clamp(0rem, 2vw, 1rem);
+  @apply w-max h-full flex justify-between items-center font-black
+}
+
 .projectdiv {
   @apply w-full h-max flex-col justify-center
 }
