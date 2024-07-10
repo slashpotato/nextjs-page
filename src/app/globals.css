@@ -7,7 +7,16 @@
   font-family: 'Material Symbols Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialsymbolsrounded/v181/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxc.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/materialsymbolsrounded/v181/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxc.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'BlexMono';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-weight: 400;
+  src: '../../public/fonts/blexmono/BlexMonoNerdFontMono-Medium.ttf';
 }
 
 .material-symbols-rounded {
@@ -58,37 +67,38 @@ body {
 }
 
 .classic {
-    @apply mt-16
+  @apply mt-16;
 }
 
 .full {
-    @apply m-0
+  @apply m-0;
 }
 
 .noblue {
-  @apply text-white
+  @apply text-white;
 }
 
-button, a {
-    @apply cursor-pointer
+button,
+a {
+  @apply cursor-pointer;
 }
 
 #navList ol {
-    @apply hover:underline no-underline cursor-pointer
+  @apply hover:underline no-underline cursor-pointer;
 }
 
 #social-ol li {
-  @apply my-0.5 flex justify-start items-center
+  @apply my-0.5 flex justify-start items-center;
 }
 #social-ol li a {
-  @apply inline-flex justify-start items-center
+  @apply inline-flex justify-start items-center;
 }
 #social-ol li a img {
-  @apply size-8 mr-2 saturate-0
+  @apply size-8 mr-2 saturate-0;
 }
 
 .titleel {
-  @apply flex items-center justify-normal h-8 w-max gap-[2px]
+  @apply flex items-center justify-normal h-8 w-max gap-[2px];
 }
 
 #header {
@@ -99,21 +109,21 @@ button, a {
 #title {
   font-size: clamp(1.3rem, 5vw, 1.5rem);
   gap: clamp(0rem, 2vw, 1rem);
-  @apply w-max h-full flex justify-between items-center font-black
+  @apply w-max h-full flex justify-between items-center font-black;
 }
 
 .projectdiv {
-  @apply w-full h-max flex-col justify-center
+  @apply w-full h-max flex-col justify-center;
 }
 
 .projectel {
-  @apply w-full h-max flex justify-center pt-8 items-center
+  @apply w-full h-max flex justify-center pt-8 items-center;
 }
 
 .projecttitle {
-  @apply text-6xl w-full h-max flex justify-center pt-12
+  @apply text-6xl w-full h-max flex justify-center pt-12;
 }
 
 .projecth {
-  @apply text-2xl w-full h-max flex justify-center pt-8
+  @apply text-2xl w-full h-max flex justify-center pt-8;
 }
