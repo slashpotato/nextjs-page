@@ -17,7 +17,7 @@ const emoji = Noto_Color_Emoji({
 
 export const metadata: Metadata = {
     title: "slshptt",
-    description: "slashpotato's website",
+    description: "slashpotato's website"
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
                 <header className="h-16 w-full fixed top-0 left-0 right-0 z-50 bg-black dark:bg-white text-white dark:text-black">
                     <Title />
                 </header>
-                <div id="content" className="max-w-full min-h-screen fixed top-0 left-0 right-0 z-0">
+                <div id="content" className="max-w-full min-h-screen fixed top-0 left-0 right-0 z-0 bg-white dark:bg-black text-black dark:text-white">
                     {children}
                 </div>
             </body>
