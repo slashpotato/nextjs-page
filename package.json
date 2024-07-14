@@ -1,6 +1,6 @@
 {
   "name": "slshptt",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@catppuccin/tailwindcss": "^0.1.6",
+    "@next/swc-android-arm64": "^13.2.4",
     "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.97.6",
     "next": "^14.2.3",
@@ -36,7 +37,6 @@
     "safari 12"
   ],
   "description": "slashpotato's website",
-  "main": "index.js",
   "repository": "https://github.com/slashpotato/slashpotato.github.io.git",
   "author": "slashpotato <slashpotato@proton.me>",
   "license": "GPL-3.0",
