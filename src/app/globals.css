@@ -59,6 +59,7 @@ a {
 code,
 kbd,
 samp,
-pre {
+pre,
+.mono {
   font-family: 'JetBrainsMono';
 }

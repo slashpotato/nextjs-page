@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${Geologica.className} bg-white dark:bg-black text-black dark:text-white`}>
-                <div id="content" className="max-w-full min-h-screen z-0">
+                <div id="content" className="max-w-full min-h-screen z-0 font-mono">
                     {children}
                 </div>
             </body>
