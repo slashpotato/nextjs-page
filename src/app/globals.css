@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* fallback */
 @font-face {
   font-family: 'Material Symbols Rounded';
   font-style: normal;
@@ -12,14 +11,23 @@
 }
 
 @font-face {
-  font-family: 'BlexMono';
+  font-family: 'Geologica';
   font-style: normal;
-  font-variant-ligatures: normal;
-  font-weight: 400;
-  src: '../../public/fonts/blexmono/BlexMonoNerdFontMono-Medium.ttf';
+  font-weight: 500;
+  src: url(/fonts/GeologicaNerdFont-Medium.ttf);
 }
 
-.material-symbols-rounded {
+@font-face {
+  font-family: 'JetBrainsMono';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/fonts/JetBrainsMonoNerdFontMono-Medium.ttf);
+  font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+}
+
+.icon {
   font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
@@ -33,6 +41,7 @@
   direction: ltr;
   font-feature-settings: 'liga';
   -moz-font-feature-settings: 'liga';
+  -webkit-font-feature-settings: "liga";
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -42,64 +51,14 @@
   }
 }
 
-.classic {
-  @apply mt-16;
-}
-
-.full {
-  @apply m-0;
-}
-
-.noblue {
-  @apply text-white;
-}
-
 button,
 a {
   @apply cursor-pointer;
 }
 
-#navList ol {
-  @apply hover:underline no-underline cursor-pointer;
-}
-
-#social-ol li {
-  @apply my-0.5 flex justify-start items-center;
-}
-#social-ol li a {
-  @apply inline-flex justify-start items-center;
-}
-#social-ol li a img {
-  @apply size-8 mr-2 saturate-0;
-}
-
-.titleel {
-  @apply flex items-center justify-normal h-8 w-max gap-[2px];
-}
-
-#header {
-  margin-right: clamp(1rem, 5vw, 3.5rem);
-  margin-left: clamp(1.5rem, 5vw, 6rem);
-}
-
-#title {
-  font-size: clamp(1.3rem, 5vw, 1.5rem);
-  gap: clamp(0rem, 2vw, 1rem);
-  @apply w-max h-full flex justify-between items-center font-black;
-}
-
-.projectdiv {
-  @apply w-full h-max flex-col justify-center;
-}
-
-.projectel {
-  @apply w-full h-max flex justify-center pt-8 items-center;
-}
-
-.projecttitle {
-  @apply text-6xl w-full h-max flex justify-center pt-12;
-}
-
-.projecth {
-  @apply text-2xl w-full h-max flex justify-center pt-8;
+code,
+kbd,
+samp,
+pre {
+  font-family: 'JetBrainsMono';
 }
