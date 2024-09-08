@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 80",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev-http": "next dev -p 80",
+    "dev-https": "next dev -p 443"
   },
   "dependencies": {
     "next": "^14.2.3",
